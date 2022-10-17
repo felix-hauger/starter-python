@@ -1,6 +1,3 @@
-from re import I
-
-
 nbloop = int(input("Combien de tours de boucle ?\n>"))
 i = 0
 
