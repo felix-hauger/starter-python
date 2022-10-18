@@ -1,6 +1,3 @@
-from operator import truediv
-
-
 while True:
     userinput = input(">")
     if userinput == "Bonjour":
