@@ -7,9 +7,9 @@ data_string = open("data.txt").read()
 words = re.findall("[a-zA-Z]+", data_string)
 
 # Browse through the list with a loop to count number of words
-nb_words = 0
+words_count = 0
 
 for word in words:
-    nb_words+=1
+    words_count += 1
 
-print(nb_words)
+print(words_count)
