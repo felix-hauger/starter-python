@@ -3,7 +3,7 @@ def add_to_list(*numbers):
     myList = []
 
     for number in numbers:
-        # using type instead() of isinstance() because the last interprets booleans as 1 and 0
+        # using type() instead of isinstance() because the last interprets booleans as 1 and 0
         if type(number) is int or type(number) is float:
             myList.append(number)
 
