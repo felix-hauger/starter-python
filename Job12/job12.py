@@ -13,3 +13,5 @@ for word in words:
     words_count += 1
 
 print(words_count)
+
+# Un grand merci à Rodrigue pour m'avoir aidé avec les regexes !
