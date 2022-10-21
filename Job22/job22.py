@@ -46,9 +46,53 @@ def myUpper(myString:str):
 
 print(myUpper("hellothere"))
 
-# def myLower():
+def myLower(myString:str):
+    string_list = list(myString)
+    up_to_low = {
+        "A" : "a",
+        "B" : "b",
+        "C" : "c",
+        "D" : "d",
+        "E" : "e",
+        "F" : "f",
+        "G" : "g",
+        "H" : "h",
+        "I" : "i",
+        "J" : "j",
+        "K" : "k",
+        "L" : "l",
+        "M" : "m",
+        "N" : "n",
+        "O" : "o",
+        "P" : "p",
+        "Q" : "q",
+        "R" : "r",
+        "S" : "s",
+        "T" : "t",
+        "U" : "u",
+        "V" : "v",
+        "W" : "w",
+        "X" : "x",
+        "Y" : "y",
+        "Z" : "z",
+    }
+
+    # x used for string_list handling by index
+    x = 0
+    for char in string_list:
+        # if char is in the keys of up_to_low, replace the current character by the value of the key of the dictionnary
+        if char in up_to_low:
+            string_list[x] = up_to_low[char]
+        x += 1
+            
+    lower_string = ""
+    for char in string_list:
+        lower_string += char
+
+    return lower_string
 
 
+print(myLower("HEY"))
 
 # def myTitle():
 
