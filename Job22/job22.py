@@ -116,7 +116,7 @@ def myLower(myString:str):
     return lower_string
 
 
-print(myLower("HEY"))
+print(myLower("HEY LOOK"))
 
 # def myTitle():
 
